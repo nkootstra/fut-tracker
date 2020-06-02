@@ -40,7 +40,7 @@ function Countdown(props) {
     });
 
     return (
-        <div className="ml-4 px-3 py-2 font-medium text-sm leading-5 rounded-md text-gray-600 bg-gray-200">
+        <div className="px-3 py-2 font-medium text-sm leading-5 rounded-md text-gray-600 bg-gray-200">
             {timerComponents.length ? timerComponents : <span>:(</span>}
         </div>
     );

@@ -23,7 +23,7 @@ export default class Objective extends Component {
                             <h3 className="text-lg leading-6 font-medium text-gray-900">
                                 {this.props.objective.title}
                             </h3>
-                            <span className="text-xs text-gray-600">{this.props.objective.description}</span>
+                            <span className="text-xs text-gray-600 hidden md:block">{this.props.objective.description}</span>
                         </div>
                         <div className="ml-4 mt-2 flex-shrink-0">
                           <span className="inline-flex">

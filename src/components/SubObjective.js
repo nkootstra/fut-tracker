@@ -30,7 +30,7 @@ export default class SubObjective extends Component {
                             {this.props.objective.title} ({currentProgression}/{this.props.objective.amount})
                         </div>
                         <div className="flex">
-                            <div className="inline-flex block h-2 w-64 bg-gray-100 rounded-md">
+                            <div className="inline-flex block h-2 w-32 md:w-64 bg-gray-100 rounded-md">
                                 <span className="h-full w-auto bg-green-400 rounded-md text-center progressbar" ref={this.progressBarRef}
                                       style={{width: `${Math.round( (currentProgression/this.props.objective.amount) * 100 + Number.EPSILON)}%` }}></span>
                             </div>
