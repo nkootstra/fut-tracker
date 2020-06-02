@@ -1,49 +1,46 @@
-import React, { useEffect, useState } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
-function Countdown(props) {
-    const calculateTimeLeft = () => {
-        const difference = +new Date(props.date) - +new Date();
-        let timeLeft = {};
+import * as dayjs from 'dayjs';
+import relativeTime from 'dayjs/plugin/relativeTime';
 
-        if (difference > 0) {
-            timeLeft = {
-                days: Math.floor(difference / (1000 * 60 * 60 * 24)),
-                hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
-                minutes: Math.floor((difference / 1000 / 60) % 60),
-                seconds: Math.floor((difference / 1000) % 60)
-            };
-        }
+dayjs.extend(relativeTime)
 
-        return timeLeft;
-    };
+let timer = null;
 
-    const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+export default class Countdown extends Component {
 
-    useEffect(() => {
-        setTimeout(() => {
-            setTimeLeft(calculateTimeLeft());
-        }, 1000);
-    });
+    state = {
+        timeLeft: ""
+    }
 
-    const timerComponents = [];
+    componentDidMount() {
+        this.updateCountdown();
+        timer = setTimeout(() => {
+            this.updateCountdown();
+        }, 6000)
+    }
 
-    Object.keys(timeLeft).forEach(interval => {
-        if (!timeLeft[interval]) {
-            return;
-        }
+    updateCountdown() {
+        this.setState({timeLeft:(!dayjs(this.props.date).isBefore(dayjs()) ?
+                "Ojective ends ".concat(dayjs().to(this.props.date)) : "Objective ended")});
+    }
 
-        timerComponents.push(
-            <span>
-        {timeLeft[interval]} {interval}{" "}
-      </span>
+    componentWillUnmount() {
+        clearTimeout(timer);
+    }
+
+
+    render() {
+
+        return (
+            <div className="px-3 py-2 font-medium text-sm leading-5 rounded-md text-gray-600 bg-gray-200">
+                {this.state.timeLeft}
+            </div>
         );
-    });
-
-    return (
-        <div className="px-3 py-2 font-medium text-sm leading-5 rounded-md text-gray-600 bg-gray-200">
-            {timerComponents.length ? timerComponents : <span>:(</span>}
-        </div>
-    );
+    }
 }
 
-export default Countdown;
+Countdown.propTypes = {
+    date: PropTypes.string.isRequired
+};
