@@ -2,10 +2,6 @@ import React, { Component } from "react";
 
 export default class SubObjective extends Component {
 
-    constructor(props) {
-        super(props);
-    }
-
     handleProcess(progression) {
         // check if completed
         let completed = progression >= this.props.objective.amount;

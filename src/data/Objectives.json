@@ -644,19 +644,5 @@
                 "amount": 40
             }
         ]
-    },
-    {
-        "id": "01306a7333fe6dad3323b02d0a228d4bb50212ed",
-        "title": "Play Online II",
-        "description": "Continue your journey by playing more Rivals (or Champions)",
-        "end_date": "2020-06-05T17:00:00+00:00",
-        "objectives": []
-    },
-    {
-        "id": "3ddf68cfcfb7c0482fc24b02bde8992fe24c3ac4",
-        "title": "Squad Battles II",
-        "description": "Continue your journey by playing more Squad Battles",
-        "end_date": "2020-06-05T17:00:00+00:00",
-        "objectives": []
     }
 ]

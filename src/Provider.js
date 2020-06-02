@@ -15,11 +15,12 @@ export default class Provider extends Component {
 
         if (!state) {
             state = {
-                objectives: Objectives,
-                progress: {}
+                progress: {},
+                hideCompleted: false,
+                filter: {}
             };
         }
-
+        state.objectives = Objectives;
         state.updateProgress = (currentProgress, id) => this.updateProgress(currentProgress, id);
 
         return state;
@@ -51,7 +52,7 @@ export default class Provider extends Component {
         const newState = {};
 
         for (const prop in this.state) {
-            if (typeof prop === 'function') {
+            if (typeof prop === 'function' || prop === 'objectives') {
                 continue;
             }
             newState[prop] = this.state[prop];
