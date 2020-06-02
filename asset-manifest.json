@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/fut-tracker/static/css/main.a7c5557f.chunk.css",
+    "main.js": "/fut-tracker/static/js/main.276646af.chunk.js",
+    "main.js.map": "/fut-tracker/static/js/main.276646af.chunk.js.map",
+    "runtime-main.js": "/fut-tracker/static/js/runtime-main.abe7216e.js",
+    "runtime-main.js.map": "/fut-tracker/static/js/runtime-main.abe7216e.js.map",
+    "static/js/2.8448244b.chunk.js": "/fut-tracker/static/js/2.8448244b.chunk.js",
+    "static/js/2.8448244b.chunk.js.map": "/fut-tracker/static/js/2.8448244b.chunk.js.map",
+    "index.html": "/fut-tracker/index.html",
+    "precache-manifest.67184965425f8ecfe5b0e9f01cb93795.js": "/fut-tracker/precache-manifest.67184965425f8ecfe5b0e9f01cb93795.js",
+    "service-worker.js": "/fut-tracker/service-worker.js",
+    "static/css/main.a7c5557f.chunk.css.map": "/fut-tracker/static/css/main.a7c5557f.chunk.css.map",
+    "static/js/2.8448244b.chunk.js.LICENSE.txt": "/fut-tracker/static/js/2.8448244b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.abe7216e.js",
+    "static/js/2.8448244b.chunk.js",
+    "static/css/main.a7c5557f.chunk.css",
+    "static/js/main.276646af.chunk.js"
+  ]
+}
