@@ -34,7 +34,7 @@ export default class Countdown extends Component {
     render() {
 
         return (
-            <div className="px-3 py-2 font-medium text-sm leading-5 rounded-md text-gray-600 bg-gray-200">
+            <div className="ml-4 px-2 py-1 font-medium text-sm leading-5 rounded-md text-gray-600 bg-gray-200">
                 {this.state.timeLeft}
             </div>
         );

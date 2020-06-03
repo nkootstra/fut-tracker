@@ -5,10 +5,12 @@ import Objective from './Objective'
 export default class Objectives extends Component {
 
     render() {
-        const { objectives } = this.context;
+        const { objectives, filter } = this.context;
         return (
             <div>
-                { objectives.map(objective =>
+                { objectives.filter(function (objective) {
+                    return !filter.includes(objective.id);
+                }).map(objective =>
                     <Objective key={objective.id}
                                parent={objective.id}
                                objective={objective}
