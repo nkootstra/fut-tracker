@@ -61,16 +61,18 @@ class HiddenFilter extends Component {
                 leave="transition ease-in duration-75 transform"
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95">
-                <div className="container mx-auto ease-out duration-300">
-                    <section className="mt-6 bg-white shadow px-4 py-5 sm:rounded-lg sm:p-6">
-                        {
-                            filter.length === 0 ? (
-                                <span className="w-auto flex justify-center">No hidden objectives</span>
-                            ) : filter.map(o => {
-                                let objective = objectives.find(obj => obj.id === o);
-                                return <HiddenItem key={o} objective={objective} showObjective={this.showObjective}/>;
-                            })
-                        }
+                <div className="mt-6 container mx-auto ease-out duration-300">
+                    <section className="bg-white shadow px-4 py-5 sm:rounded-lg sm:p-6">
+                        <div className="overflow-auto max-h-48">
+                            {
+                                filter.length === 0 ? (
+                                    <span className="w-auto flex justify-center">No hidden objectives</span>
+                                ) : filter.map(o => {
+                                    let objective = objectives.find(obj => obj.id === o);
+                                    return <HiddenItem key={o} objective={objective} showObjective={this.showObjective}/>;
+                                })
+                            }
+                        </div>
                     </section>
                 </div>
             </Transition>
@@ -91,7 +93,7 @@ class HiddenItem extends Component {
 
     render() {
         return (
-            <div className="flex justify-between items-center flex-wrap py-2">
+            <div className="flex justify-between items-center flex-wrap py-1.5">
                 <span>{this.props.objective.title}</span>
 
                     <button type="button"
