@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/fut-tracker/static/css/main.a2ddfd28.chunk.css",
-    "main.js": "/fut-tracker/static/js/main.13b9909a.chunk.js",
-    "main.js.map": "/fut-tracker/static/js/main.13b9909a.chunk.js.map",
+    "main.js": "/fut-tracker/static/js/main.8fbd2b0c.chunk.js",
+    "main.js.map": "/fut-tracker/static/js/main.8fbd2b0c.chunk.js.map",
     "runtime-main.js": "/fut-tracker/static/js/runtime-main.abe7216e.js",
     "runtime-main.js.map": "/fut-tracker/static/js/runtime-main.abe7216e.js.map",
-    "static/js/2.e20365c6.chunk.js": "/fut-tracker/static/js/2.e20365c6.chunk.js",
-    "static/js/2.e20365c6.chunk.js.map": "/fut-tracker/static/js/2.e20365c6.chunk.js.map",
+    "static/js/2.f3a044c3.chunk.js": "/fut-tracker/static/js/2.f3a044c3.chunk.js",
+    "static/js/2.f3a044c3.chunk.js.map": "/fut-tracker/static/js/2.f3a044c3.chunk.js.map",
     "index.html": "/fut-tracker/index.html",
-    "precache-manifest.2a33fc6c227fe8250d7780b6777d167d.js": "/fut-tracker/precache-manifest.2a33fc6c227fe8250d7780b6777d167d.js",
+    "precache-manifest.f8db378f62a8d77d5afee56efaf75f06.js": "/fut-tracker/precache-manifest.f8db378f62a8d77d5afee56efaf75f06.js",
     "service-worker.js": "/fut-tracker/service-worker.js",
     "static/css/main.a2ddfd28.chunk.css.map": "/fut-tracker/static/css/main.a2ddfd28.chunk.css.map",
-    "static/js/2.e20365c6.chunk.js.LICENSE.txt": "/fut-tracker/static/js/2.e20365c6.chunk.js.LICENSE.txt"
+    "static/js/2.f3a044c3.chunk.js.LICENSE.txt": "/fut-tracker/static/js/2.f3a044c3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.abe7216e.js",
-    "static/js/2.e20365c6.chunk.js",
+    "static/js/2.f3a044c3.chunk.js",
     "static/css/main.a2ddfd28.chunk.css",
-    "static/js/main.13b9909a.chunk.js"
+    "static/js/main.8fbd2b0c.chunk.js"
   ]
 }
