@@ -34,7 +34,7 @@ export default class Countdown extends Component {
     render() {
 
         return (
-            <div className="ml-4 px-2 py-1 font-medium text-sm leading-5 rounded-md text-gray-600 bg-gray-200">
+            <div className={this.props.className}>
                 {this.state.timeLeft}
             </div>
         );
@@ -42,5 +42,6 @@ export default class Countdown extends Component {
 }
 
 Countdown.propTypes = {
-    date: PropTypes.string.isRequired
+    date: PropTypes.string.isRequired,
+    className: PropTypes.string.isRequired
 };

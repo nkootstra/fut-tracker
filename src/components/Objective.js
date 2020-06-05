@@ -25,11 +25,13 @@ export default class Objective extends Component {
                 <div className="bg-white px-4 py-5 border-b border-gray-200 sm:px-6">
                     <div className="-ml-4 -mt-4 flex justify-between items-center flex-wrap sm:flex-no-wrap">
                         <div className="ml-4 mt-2">
-                            <div className="flex items-center">
+                            <div className="sm:flex-none md:flex md:items-center">
                                 <h3 className="text-lg leading-6 font-medium text-gray-900">
                                     {this.props.objective.title}
                                 </h3>
-                                <Countdown date={this.props.objective.end_date}/>
+                                <Countdown
+                                    className={"sm:ml-0 sm:mt-2 md:mt-0 md:ml-4 px-2 py-1 font-medium text-sm leading-5 rounded-md text-gray-600 bg-gray-200"}
+                                    date={this.props.objective.end_date}/>
                             </div>
                             <span className="pt-3 text-xs text-gray-600 hidden md:block">{this.props.objective.description}</span>
                         </div>
