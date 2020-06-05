@@ -16,20 +16,25 @@ export default class Countdown extends Component {
 
     componentDidMount() {
         this.updateCountdown();
-        timer = setTimeout(() => {
+        timer = setInterval(() => {
             this.updateCountdown();
-        }, 6000)
-    }
-
-    updateCountdown() {
-        this.setState({timeLeft:(!dayjs(this.props.date).isBefore(dayjs()) ?
-                "Ojective ends ".concat(dayjs().to(this.props.date)) : "Objective ended")});
+            }, 5000
+        );
     }
 
     componentWillUnmount() {
+        // we set the timeout to this.turnOffRedTimeout so that we can
+        // clean it up when the component is unmounted.
+        // otherwise you could get your app trying to modify the state on an
+        // unmounted component, which will throw an error
         clearTimeout(timer);
     }
 
+    updateCountdown() {
+        this.setState({
+            timeLeft:(!dayjs(this.props.date).isBefore(dayjs()) ?
+                "Ojective ends ".concat(dayjs().to(this.props.date)) : "Objective ended")});
+    }
 
     render() {
 
