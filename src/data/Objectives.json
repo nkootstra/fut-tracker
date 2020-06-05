@@ -1,31 +1,5 @@
 [
     {
-        "id": "7cf3e6068353158a7adef38a0e8c5cea3a585ba7",
-        "title": "Daily Objectives",
-        "description": "Complete all the Dailies to earn XP.",
-        "end_date": "2020-06-02T17:00:00+00:00",
-        "objectives": [
-            {
-                "id": "34fe6e38e04178acbc6ed7391b08126260636a2f",
-                "title": "Play 2 Matches",
-                "description": "Play 2 matches in any mode.",
-                "amount": 2
-            },
-            {
-                "id": "ef33b0272500f6316cd18e6eabe8364ad4b00912",
-                "title": "Win 1 Match",
-                "description": "Win 1 match in any mode.",
-                "amount": 1
-            },
-            {
-                "id": "ef91384400ffc418ba1780f5b5d036b0a2ba2a31",
-                "title": "FUT Friendlies",
-                "description": "Score a goal in any FUT Friendly match",
-                "amount": 1
-            }
-        ]
-    },
-    {
         "id": "8e340dcd54cad65b60ae4c7d5314b33507dd1a72",
         "title": "TOTSSF Gueye",
         "description": "Ligue 1 TOTSSF is here! Complete these objectives to earn TOTSSF Gueye! All rewards Untradeable",
@@ -176,32 +150,6 @@
                 "title": "Battle 5",
                 "description": "Play 5 Squad Battles matches",
                 "amount": 5
-            }
-        ]
-    },
-    {
-        "id": "7697671945760e46b3d99833a90b0e571a13a122",
-        "title": "Manchester City Retro Kit",
-        "description": "Roll back the years in style with the Manchester City Retro Kit! Complete these objectives to earn Untradeable rewards",
-        "end_date": "2020-06-04T17:00:00+00:00",
-        "objectives": [
-            {
-                "id": "9b2797beb84856941683f32e29ca4fdd1164c3df",
-                "title": "English Excellence",
-                "description": "Score 5 goals in Squad Battles on min. Semi-Pro difficulty using English players",
-                "amount": 5
-            },
-            {
-                "id": "0ef0ae5662f366f438d78461e54906811ab5a0e6",
-                "title": "Premier League Provider",
-                "description": "Assist in 4 separate matches in any FUT game mode using Premier League players",
-                "amount": 4
-            },
-            {
-                "id": "b02ffcc571d9f35c235fa30a897f698986a02812",
-                "title": "Manchester Mates",
-                "description": "Score in 3 separate Friendly matches using Manchester City players",
-                "amount": 3
             }
         ]
     },

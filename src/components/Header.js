@@ -69,7 +69,11 @@ class HiddenFilter extends Component {
                                     <span className="w-auto flex justify-center">No hidden objectives</span>
                                 ) : filter.map(o => {
                                     let objective = objectives.find(obj => obj.id === o);
-                                    return <HiddenItem key={o} objective={objective} showObjective={this.showObjective}/>;
+                                    if(!objective) {
+                                        this.showObjective(o);
+                                    }
+                                    return <HiddenItem key={o} objective={objective}
+                                                       showObjective={this.showObjective}/>;
                                 })
                             }
                         </div>
