@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-
 import * as dayjs from 'dayjs';
 import relativeTime from 'dayjs/plugin/relativeTime';
+import 'balloon-css';
 
 dayjs.extend(relativeTime)
 
@@ -39,7 +39,7 @@ export default class Countdown extends Component {
     render() {
 
         return (
-            <div className={this.props.className}>
+            <div className={this.props.className} aria-label={dayjs(this.props.date).format()} data-balloon-pos="right">
                 {this.state.timeLeft}
             </div>
         );
