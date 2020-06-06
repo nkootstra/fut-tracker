@@ -1,22 +1,25 @@
 {
   "files": {
     "main.css": "/fut-tracker/static/css/main.a2ddfd28.chunk.css",
-    "main.js": "/fut-tracker/static/js/main.742d65bc.chunk.js",
-    "main.js.map": "/fut-tracker/static/js/main.742d65bc.chunk.js.map",
+    "main.js": "/fut-tracker/static/js/main.586cba42.chunk.js",
+    "main.js.map": "/fut-tracker/static/js/main.586cba42.chunk.js.map",
     "runtime-main.js": "/fut-tracker/static/js/runtime-main.abe7216e.js",
     "runtime-main.js.map": "/fut-tracker/static/js/runtime-main.abe7216e.js.map",
-    "static/js/2.f3a044c3.chunk.js": "/fut-tracker/static/js/2.f3a044c3.chunk.js",
-    "static/js/2.f3a044c3.chunk.js.map": "/fut-tracker/static/js/2.f3a044c3.chunk.js.map",
+    "static/css/2.e1498f10.chunk.css": "/fut-tracker/static/css/2.e1498f10.chunk.css",
+    "static/js/2.75f133ed.chunk.js": "/fut-tracker/static/js/2.75f133ed.chunk.js",
+    "static/js/2.75f133ed.chunk.js.map": "/fut-tracker/static/js/2.75f133ed.chunk.js.map",
     "index.html": "/fut-tracker/index.html",
-    "precache-manifest.d8bf43c13cad291c5fea4b6193782c58.js": "/fut-tracker/precache-manifest.d8bf43c13cad291c5fea4b6193782c58.js",
+    "precache-manifest.295606975f3fa951de7f6fca1175ae93.js": "/fut-tracker/precache-manifest.295606975f3fa951de7f6fca1175ae93.js",
     "service-worker.js": "/fut-tracker/service-worker.js",
+    "static/css/2.e1498f10.chunk.css.map": "/fut-tracker/static/css/2.e1498f10.chunk.css.map",
     "static/css/main.a2ddfd28.chunk.css.map": "/fut-tracker/static/css/main.a2ddfd28.chunk.css.map",
-    "static/js/2.f3a044c3.chunk.js.LICENSE.txt": "/fut-tracker/static/js/2.f3a044c3.chunk.js.LICENSE.txt"
+    "static/js/2.75f133ed.chunk.js.LICENSE.txt": "/fut-tracker/static/js/2.75f133ed.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.abe7216e.js",
-    "static/js/2.f3a044c3.chunk.js",
+    "static/css/2.e1498f10.chunk.css",
+    "static/js/2.75f133ed.chunk.js",
     "static/css/main.a2ddfd28.chunk.css",
-    "static/js/main.742d65bc.chunk.js"
+    "static/js/main.586cba42.chunk.js"
   ]
 }
