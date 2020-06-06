@@ -10,11 +10,17 @@ export default class Objectives extends Component {
             <div>
                 { objectives.filter(function (objective) {
                     return !filter.includes(objective.id);
-                }).map(objective =>
-                    <Objective key={objective.id}
-                               parent={objective.id}
-                               objective={objective}
-                               subObjectives={objective.objectives}/>)
+                }).map(objective => {
+
+
+                    let isCompleted = (objective.objectives.length-(objective.objectives.filter(sub => {return this.context.progress[sub.id]?.completed || false;}).length))===0;
+
+                    return <Objective key={objective.id}
+                                      parent={objective.id}
+                                      objective={objective}
+                                      subObjectives={objective.objectives}
+                                      isCompleted={isCompleted}/>;
+                })
                 }
             </div>
         );

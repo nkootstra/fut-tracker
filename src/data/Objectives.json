@@ -64,6 +64,38 @@
         ]
     },
     {
+        "id": "4ba629c28e6ee093b1d39174174d2b9aa36dfc0f",
+        "title": "Week 1 - Silver",
+        "description": "Jump into the action and play some FUT!",
+        "end_date": "2020-06-18T17:00:00+00:00",
+        "objectives": [
+            {
+                "id": "5f571ac499915406ada078e8211a2e9feb5f07bd",
+                "title": "Assist Three",
+                "description": "Assist 3 goals in Friendlies",
+                "amount": 3
+            },
+            {
+                "id": "6a5e1e20853bdc219f7b3b94996f7339f65b468a",
+                "title": "Score Three",
+                "description": "Score a goal in 3 separate matches in any FUT game mode",
+                "amount": 3
+            },
+            {
+                "id": "320804a152bd3fdfc05bd44e4251d57f6b001c6d",
+                "title": "Play Three",
+                "description": "Play 3 Squad Battles matches",
+                "amount": 3
+            },
+            {
+                "id": "474a29c77a4074e22aea3eaa441eb63eb40c511f",
+                "title": "Midfield Passer",
+                "description": "Assist 2 goals with Midfielders in any FUT game mode",
+                "amount": 2
+            }
+        ]
+    },
+    {
         "id": "3688d057847cd0c18dc090d78c1d6746066ba253",
         "title": "Pirlo's Story",
         "description": "Roll back the years with Pirlo and earn Untradeable rewards",
