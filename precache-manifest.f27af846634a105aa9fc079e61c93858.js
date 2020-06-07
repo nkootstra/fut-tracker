@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3ffa8718671203c010d677262099ec01",
+    "revision": "e7d09396b85faa47f8232741c11286ba",
     "url": "/fut-tracker/index.html"
   },
   {
-    "revision": "f4507f71a7e33c10c8a9",
+    "revision": "e1f53786dca283e1c4e2",
     "url": "/fut-tracker/static/css/2.e1498f10.chunk.css"
   },
   {
-    "revision": "076831dcaad6c5a8ee45",
+    "revision": "257d239e5d6a8f07ee3e",
     "url": "/fut-tracker/static/css/main.a2ddfd28.chunk.css"
   },
   {
-    "revision": "f4507f71a7e33c10c8a9",
-    "url": "/fut-tracker/static/js/2.75f133ed.chunk.js"
+    "revision": "e1f53786dca283e1c4e2",
+    "url": "/fut-tracker/static/js/2.f6982b56.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/fut-tracker/static/js/2.75f133ed.chunk.js.LICENSE.txt"
+    "url": "/fut-tracker/static/js/2.f6982b56.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "076831dcaad6c5a8ee45",
-    "url": "/fut-tracker/static/js/main.586cba42.chunk.js"
+    "revision": "257d239e5d6a8f07ee3e",
+    "url": "/fut-tracker/static/js/main.7c6049a4.chunk.js"
   },
   {
     "revision": "484bbc2ed53382d49f65",
