@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9887a84bedb4537c9b972c23df6e5723",
+    "revision": "905b372b05558d9a204d67625fef6090",
     "url": "/fut-tracker/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fut-tracker/static/css/2.e1498f10.chunk.css"
   },
   {
-    "revision": "0baa5d755fcd46f64fd4",
+    "revision": "544de52f9ee82f600d15",
     "url": "/fut-tracker/static/css/main.a2ddfd28.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fut-tracker/static/js/2.f6982b56.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0baa5d755fcd46f64fd4",
-    "url": "/fut-tracker/static/js/main.82ca35c8.chunk.js"
+    "revision": "544de52f9ee82f600d15",
+    "url": "/fut-tracker/static/js/main.94c13860.chunk.js"
   },
   {
     "revision": "484bbc2ed53382d49f65",
