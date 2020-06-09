@@ -12,8 +12,16 @@ export default class Objective extends Component {
         this.hideObjective = this.hideObjective.bind(this);
     }
 
-    handleProgression(currentProgress, id) {
-        this.context.updateProgress(currentProgress, id);
+    handleProgression(currentProgress, id, action) {
+
+        if(this.props.objective.combined_objectives) {
+
+            // send update all request
+            this.context.updateCombinedObjectives(this.props.subObjectives, action);
+        } else {
+            this.context.updateProgress(currentProgress, id);
+        }
+
     }
 
     hideObjective() {

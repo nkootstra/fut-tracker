@@ -2,13 +2,14 @@ import React, { Component } from "react";
 
 export default class SubObjective extends Component {
 
-    handleProcess(progression) {
+    handleProcess(progression, action) {
         // check if completed
         let completed = progression >= this.props.objective.amount;
 
         this.props.handleProgress(
             {progression:progression, completed:completed},
-            this.props.objective.id
+            this.props.objective.id,
+            action
         )
     }
 
@@ -39,19 +40,32 @@ export default class SubObjective extends Component {
                         </div>
                         <div className="sm:flex">
                             <div className="mr-1 flex items-center">
-                                {currentProgression!== 0 &&
-                                <button type="button"
-                                        onClick={() => this.handleProcess(currentProgression-1)}
-                                        className="relative inline-flex items-center px-3 py-1.5 border border-transparent text-sm leading-3 font-medium rounded-md text-white bg-red-600 hover:bg-red-500 focus:outline-none focus:shadow-outline-indigo focus:border-red-700 active:bg-red-700">
-                                    -1
-                                </button>}
+                                { this.props.objective.amount < 60 ?
+                                    (<div>
+                                        {currentProgression!== 0 &&
+                                        <button type="button"
+                                                onClick={() => this.handleProcess(currentProgression-1,'minus')}
+                                                className="relative inline-flex items-center px-3 py-1.5 border border-transparent text-sm leading-3 font-medium rounded-md text-white bg-red-600 hover:bg-red-500 focus:outline-none focus:shadow-outline-indigo focus:border-red-700 active:bg-red-700">
+                                            -1
+                                        </button>}
 
-                                <button type="button"
-                                        disabled={isCompleted}
-                                        onClick={() => this.handleProcess(currentProgression+1)}
-                                        className="ml-2 relative inline-flex items-center px-3 py-1.5 border border-transparent text-sm leading-3 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo focus:border-indigo-700 active:bg-indigo-700">
-                                    +1
-                                </button>
+                                        <button type="button"
+                                                disabled={isCompleted}
+                                                onClick={() => this.handleProcess(currentProgression+1,'plus')}
+                                                className="ml-2 relative inline-flex items-center px-3 py-1.5 border border-transparent text-sm leading-3 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo focus:border-indigo-700 active:bg-indigo-700">
+                                            +1
+                                        </button>
+                                    </div>) :
+                                    (<div>
+                                        <button type="button"
+                                                onClick={() => this.handleProcess(this.props.objective.amount,'plus')}
+                                                className={"ml-2 relative inline-flex items-center px-3 py-1.5 border border-transparent text-sm leading-3 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo focus:border-indigo-700 active:bg-indigo-700" +
+                                                (isCompleted) ? " hidden" : ""}>
+                                            Complete
+                                        </button>
+                                    </div>) }
+
+
                             </div>
                         </div>
                     </div>

@@ -24,6 +24,7 @@ export default class Provider extends Component {
         state.updateProgress = (currentProgress, id) => this.updateProgress(currentProgress, id);
         state.updateFilters = (id) => this.updateFilters(id);
         state.removeFilters = (id) => this.removeFilters(id);
+        state.updateCombinedObjectives = (objectives,action) => this.updateCombinedObjectives(objectives,action);
         return state;
     }
 
@@ -35,6 +36,32 @@ export default class Provider extends Component {
         });
         return this.updateAndSave(updatedState);
     };
+
+    updateCombinedObjectives = (objectives, action) => {
+        let updatedState = this.state;
+
+        // get highest progression from all the sub objectives
+        let highestArray = objectives.map( sub => {
+            return this.state.progress[sub.id]?.progression || 0;
+        });
+        let highestAmount = Math.max(...highestArray);
+
+        objectives.forEach( sub => {
+            let current = this.state.progress[sub.id]?.progression || 0;
+
+            let updatedProgression = (action === 'plus') ? current+1 : current -1;
+
+            if(current < sub.amount || (action === 'minus' && current >= highestAmount)) {
+                let completed = updatedProgression >= sub.amount;
+                updatedState = update(updatedState, {
+                    progress: {
+                        $merge: {[sub.id]: {progression:updatedProgression, completed:completed}}
+                    }
+                });
+            }
+        });
+        return this.updateAndSave(updatedState);
+    }
 
     updateFilters = (id) => {
 

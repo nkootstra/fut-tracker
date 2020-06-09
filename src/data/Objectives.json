@@ -3,6 +3,7 @@
         "id": "f1980aaef60fcd8c52796e4b224b69459bf21a9c",
         "title": "TOTSSF Moments Grealish",
         "description": "Ultimate TOTSSF is here! Earn TOTSSF Moments Grealish recognizing a complete performance vs Brighton! All rewards Untradeable",
+        "combined_objectives": false,
         "end_date": "2020-06-18T17:00:00+00:00",
         "objectives": [
             {
@@ -32,9 +33,43 @@
         ]
     },
     {
+        "id": "bcdaec39d95a96e4bad42d80e45af86cd1189c80",
+        "title": "TOTSSF Evander",
+        "description": "ROW TOTSSF is here! Complete these objectives to earn TOTSSF Evander! All rewards Untradeable",
+        "combined_objectives": false,
+        "end_date": "2020-06-14T17:00:00+00:00",
+        "objectives": [
+            {
+                "id": "ac4c45d559d0aa384ac85710a815176feaa003cd",
+                "title": "Danish Delight",
+                "description": "Score in 3 separate Squad Battles matches on min. Professional difficulty (or Rivals) using Danish Superliga players",
+                "amount": 3
+            },
+            {
+                "id": "b46b60ba72b347f1c03b91d94a0ee6461c156a9a",
+                "title": "Brazilian Brilliance",
+                "description": "Score 5 Finesse goals in Squad Battles on min. World Class difficulty (or Rivals) using Brazilian players",
+                "amount": 5
+            },
+            {
+                "id": "27e14c1730a4be976ed904a300f6c656a024ef51",
+                "title": "World Class Weak Foot",
+                "description": "Assist a goal in 3 separate Squad Battles matches on min. Professional difficulty (or Rivals) using Midfielders with min. 4* Weak Foot",
+                "amount": 3
+            },
+            {
+                "id": "a6f9d76de04ef0ec5bba57deebe023ed6ea6e9d3",
+                "title": "Skillful Samba",
+                "description": "Score and Assist in 5 Squad Battles wins on min. Professional difficulty (or Rivals) using Brazilian players with min. 4* Skill Moves",
+                "amount": 5
+            }
+        ]
+    },
+    {
         "id": "5fe271667d8ef5d0337355bfc6a9f54c39818611",
         "title": "Week 1 - Bronze",
         "description": "Week 1 begins",
+        "combined_objectives": false,
         "end_date": "2020-06-18T17:00:00+00:00",
         "objectives": [
             {
@@ -67,6 +102,7 @@
         "id": "4ba629c28e6ee093b1d39174174d2b9aa36dfc0f",
         "title": "Week 1 - Silver",
         "description": "Jump into the action and play some FUT!",
+        "combined_objectives": false,
         "end_date": "2020-06-18T17:00:00+00:00",
         "objectives": [
             {
@@ -96,10 +132,50 @@
         ]
     },
     {
+        "id": "7991e74d75a91d5c82b983e94d23f17cfa589780",
+        "title": "Week 1 - Gold",
+        "description": "Show your flair in this week's Assist themed objectives",
+        "combined_objectives": false,
+        "end_date": "2020-06-18T17:00:00+00:00",
+        "objectives": [
+            {
+                "id": "e946134cd046c669a89b1229b4152bfef022a4c0",
+                "title": "On the Deck",
+                "description": "Assist 3 goals using Through Balls in Squad Battles on min. Professional difficulty",
+                "amount": 3
+            },
+            {
+                "id": "1d0a0b45f8164489950fc1e53b278499d1219693",
+                "title": "Passing Rivals",
+                "description": "Assist 5 goals in Rivals",
+                "amount": 5
+            },
+            {
+                "id": "e7cce8b51415e35ab2023700d422817f233f58ee",
+                "title": "Pass to Win",
+                "description": "Assist a goal using Midfielders in 2 separate Rivals wins",
+                "amount": 2
+            },
+            {
+                "id": "5e9056af6702f674e685a23bf3884d284b031c74",
+                "title": "Back to Front",
+                "description": "Assist a goal using a Defender in Rivals",
+                "amount": 1
+            },
+            {
+                "id": "ab82f7cf7732ec4c6aab94a2e083233e686c09e8",
+                "title": "Making Progress",
+                "description": "Earn 3,500 Rivals points",
+                "amount": 3500
+            }
+        ]
+    },
+    {
         "id": "3688d057847cd0c18dc090d78c1d6746066ba253",
         "title": "Pirlo's Story",
         "description": "Roll back the years with Pirlo and earn Untradeable rewards",
-        "end_date": "2020-07-17T17:00:00+00:00",
+        "combined_objectives": false,
+        "end_date": "2020-07-20T17:00:00+00:00",
         "objectives": [
             {
                 "id": "9447fba8d30d6c06792d8cb2cf10ef442a08d599",
@@ -125,7 +201,8 @@
         "id": "8fff06044ebf503979393010de10fd936b626c0b",
         "title": "Ronaldinho's Story",
         "description": "Roll back the years with Ronaldinho and earn Untradeable rewards",
-        "end_date": "2020-07-17T17:00:00+00:00",
+        "combined_objectives": false,
+        "end_date": "2020-07-20T17:00:00+00:00",
         "objectives": [
             {
                 "id": "65a46dcc20f3792b3dac77b96f829f7ff225b0f4",
@@ -151,7 +228,8 @@
         "id": "67bd172992c4274f2a468b3b6e2752a0a28da486",
         "title": "Play Online",
         "description": "Level up for playing Rivals (or Champions)",
-        "end_date": "2020-07-17T17:00:00+00:00",
+        "combined_objectives": true,
+        "end_date": "2020-07-20T17:00:00+00:00",
         "objectives": [
             {
                 "id": "faf0f51eb7104c833ec708f35150144ef163bc0b",
@@ -183,7 +261,8 @@
         "id": "33946dcce8ed6e7e99a1aa502c699a2e937d86c9",
         "title": "Squad Battles",
         "description": "Level up for playing Squad Battles",
-        "end_date": "2020-07-17T17:00:00+00:00",
+        "combined_objectives": true,
+        "end_date": "2020-07-20T17:00:00+00:00",
         "objectives": [
             {
                 "id": "08397c26ff6b1b534cbcd79fa6b52f25eb4afa65",
@@ -215,7 +294,8 @@
         "id": "a04b8df2ffdc3e67081889fd984baa042da00b11",
         "title": "Master Passer",
         "description": "Assist some goals to level up",
-        "end_date": "2020-07-17T17:00:00+00:00",
+        "combined_objectives": true,
+        "end_date": "2020-07-20T17:00:00+00:00",
         "objectives": [
             {
                 "id": "489696998e2e5220c3f4522187dc4dd2518c652e",
