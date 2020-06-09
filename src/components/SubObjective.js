@@ -58,9 +58,9 @@ export default class SubObjective extends Component {
                                     </div>) :
                                     (<div>
                                         <button type="button"
+                                                disabled={isCompleted}
                                                 onClick={() => this.handleProcess(this.props.objective.amount,'plus')}
-                                                className={"ml-2 relative inline-flex items-center px-3 py-1.5 border border-transparent text-sm leading-3 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo focus:border-indigo-700 active:bg-indigo-700" +
-                                                (isCompleted) ? " hidden" : ""}>
+                                                className={"ml-2 relative inline-flex items-center px-3 py-1.5 border border-transparent text-sm leading-3 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo focus:border-indigo-700 active:bg-indigo-700"}>
                                             Complete
                                         </button>
                                     </div>) }
