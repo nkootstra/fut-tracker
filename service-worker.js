@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/fut-tracker/precache-manifest.36a91c00362b5fdf54d07766410b496e.js"
+  "/fut-tracker/precache-manifest.d671a29c942cc2186ee5da93e5e22fab.js"
 );
 
 self.addEventListener('message', (event) => {
