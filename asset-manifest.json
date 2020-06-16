@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/fut-tracker/static/css/main.a2ddfd28.chunk.css",
-    "main.js": "/fut-tracker/static/js/main.e24769af.chunk.js",
-    "main.js.map": "/fut-tracker/static/js/main.e24769af.chunk.js.map",
+    "main.js": "/fut-tracker/static/js/main.474aaf2b.chunk.js",
+    "main.js.map": "/fut-tracker/static/js/main.474aaf2b.chunk.js.map",
     "runtime-main.js": "/fut-tracker/static/js/runtime-main.abe7216e.js",
     "runtime-main.js.map": "/fut-tracker/static/js/runtime-main.abe7216e.js.map",
     "static/css/2.e1498f10.chunk.css": "/fut-tracker/static/css/2.e1498f10.chunk.css",
     "static/js/2.f6982b56.chunk.js": "/fut-tracker/static/js/2.f6982b56.chunk.js",
     "static/js/2.f6982b56.chunk.js.map": "/fut-tracker/static/js/2.f6982b56.chunk.js.map",
     "index.html": "/fut-tracker/index.html",
-    "precache-manifest.84343c9b683e994c09080a3c9625c0b1.js": "/fut-tracker/precache-manifest.84343c9b683e994c09080a3c9625c0b1.js",
+    "precache-manifest.94b668997797c5c349849b4d5cadf140.js": "/fut-tracker/precache-manifest.94b668997797c5c349849b4d5cadf140.js",
     "service-worker.js": "/fut-tracker/service-worker.js",
     "static/css/2.e1498f10.chunk.css.map": "/fut-tracker/static/css/2.e1498f10.chunk.css.map",
     "static/css/main.a2ddfd28.chunk.css.map": "/fut-tracker/static/css/main.a2ddfd28.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.e1498f10.chunk.css",
     "static/js/2.f6982b56.chunk.js",
     "static/css/main.a2ddfd28.chunk.css",
-    "static/js/main.e24769af.chunk.js"
+    "static/js/main.474aaf2b.chunk.js"
   ]
 }
